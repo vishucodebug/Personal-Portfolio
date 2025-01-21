@@ -1,0 +1,64 @@
+.MultiUseBtn {
+  background-color: #f1f1f1;
+  border-radius: 5rem;
+  padding: 0.35rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+.MultiUseBtn img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+.MultiUseBtn span {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ff5b00;
+}
+@media screen and (max-width: 992px) {
+  .MultiUseBtn {
+    padding: 0.35rem 1rem;
+  }
+  .MultiUseBtn span {
+    font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .MultiUseBtn {
+    padding: 0.25rem 0.75rem;
+  }
+  .MultiUseBtn img {
+    width: 1.75rem;
+    margin-right: 0.5rem;
+  }
+  .MultiUseBtn span {
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .MultiUseBtn {
+    padding: 0.5rem 1rem;
+  }
+  .MultiUseBtn img {
+    width: 1.45rem;
+    margin-right: 0.25rem;
+  }
+  .MultiUseBtn span {
+    font-size: 0.75rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  .MultiUseBtn {
+    padding: 0.45rem 0.75rem;
+    margin: 0 0 1rem 0;
+  }
+  .MultiUseBtn img {
+    width: 1.35rem;
+    margin-right: 0.25rem;
+  }
+  .MultiUseBtn span {
+    font-size: 0.75rem;
+  }
+}

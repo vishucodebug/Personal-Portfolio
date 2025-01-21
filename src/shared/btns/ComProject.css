@@ -1,0 +1,235 @@
+.ComProject {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Project-card {
+  width: 100%;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+.Project-card .img1,
+.Project-card .img2 {
+  width: 60%;
+  /* width: 700; */
+  min-height: 500px;
+  max-height: 600px;
+  background-color: #e15640;
+  border-radius: 3rem;
+  margin-right: -2rem;
+  z-index: 10;
+  border: 1px solid #ff5b00;
+  /* padding: 1rem; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Project-card .img1 {
+  background-color: #5b9891 !important;
+}
+.Project-card .img1 img,
+.Project-card .img2 img {
+  width: 105%;
+  object-fit: contain;
+}
+.Project-card .content {
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  padding: 1rem 10px 1rem 3rem;
+  border: 1px solid rgb(255, 91, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+  border-radius: 0 3rem 3rem 0;
+  height: fit-content;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  ) !important;
+}
+.Project-card .content h2 {
+  text-align: start;
+  margin: 0 0 2rem 0;
+}
+.Project-card .content p {
+  font-size: 1.25rem;
+  font-weight: 600 !important;
+}
+.Project-card .content .goto {
+  width: 100%;
+}
+.Project-card .content span {
+  color: #ff5b00;
+  background-color: #f1f1f1;
+  border: 1px solid #ff5b00;
+  padding: 0.25rem 1.5rem;
+  border-radius: 5rem;
+}
+.Project-card .content .SmallCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Project-card .content a {
+  background-color: #ff5b00;
+  color: #f1f1f1;
+  padding: 0.25rem 1.5rem;
+  margin: 2rem 1rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  transition: 0.5s;
+  &:hover {
+    background-color: #000;
+    color: #ff5b00;
+    border: none;
+  }
+}
+.Project-card .content .goto button {
+  background-color: #121212;
+  color: #ff5b00;
+  padding: 0.25rem 1.5rem;
+  margin: 2rem 1rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  border: none;
+  transition: 0.5s;
+  &:hover {
+    background-color: #ff5b00;
+    color: #000;
+    border: none;
+  }
+}
+.Project-card .content .goto button i,
+.Project-card .content a i {
+  margin-left: 3px;
+}
+
+.modal-content {
+  background: linear-gradient(
+    320deg,
+    rgb(125, 120, 120) 0%,
+    rgb(231, 126, 50) 100%
+  ) !important;
+
+  color: #f5f5f5;
+}
+.modal-content h3 {
+  font-size: 1.5rem;
+  color: #121212;
+}
+.modal-content ul {
+  text-align: start;
+  padding: 5px 0 0 20px;
+}
+.modal-content li {
+  list-style-type: disclosure-closed;
+  color: #121212;
+  margin-bottom: 5px;
+}
+.modal-content li ul li{
+  list-style: disc;
+}
+.modal-content li strong {
+  color: #121212;
+}
+.modal-footer button {
+  margin-top: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .Project-card .img1,
+  .Project-card .img2 {
+    width: 55%;
+  }
+  .Project-card .content {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Project-card {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Project-card .img1,
+  .Project-card .img2 {
+    width: 100%;
+    margin-bottom: -2rem;
+    min-height: 400px;
+  }
+  .Project-card .content {
+    width: 80%;
+    padding: 3rem 1rem 1rem 1rem;
+    margin-left: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .Project-card .content .SmallCards {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Project-card {
+    padding: 0;
+  }
+  .Project-card .img1,
+  .Project-card .img2 {
+    margin: 0;
+    margin-bottom: -2rem;
+  }
+  .Project-card .content {
+    width: 94%;
+    padding: 3rem 1rem 1rem 1rem;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Project-card {
+    padding: 0;
+  }
+  .Project-card .img1,
+  .Project-card .img2 {
+    margin: 0;
+    margin-bottom: -2rem;
+    min-height: 220px;
+    border-radius: 2rem;
+  }
+  .Project-card .content {
+    width: 93%;
+    padding: 3rem 5px 1rem 5px;
+    margin: 0;
+    border-radius: 2rem;
+  }
+  .Project-card .content h2 {
+    margin: 0 0 1rem 0;
+  }
+  .Project-card .content p {
+    font-size: 1rem;
+  }
+  .Project-card .content span {
+    font-size: 1rem;
+  }
+
+  .Project-card .content a {
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+  }
+  .Project-card .content .goto button {
+    padding: 0.25rem 1.25rem;
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+  }
+}

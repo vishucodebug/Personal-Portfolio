@@ -1,0 +1,24 @@
+.footer .text {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  );
+  border-radius: 100px 100px 0 0;
+}
+.footer .text p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+@media screen and (max-width: 576px) {
+  .footer .text {
+    border-radius: 70px 70px 0 0;
+  }
+  .footer .text p {
+    font-size: 1rem;
+    padding: 10px 2rem;
+  }
+}

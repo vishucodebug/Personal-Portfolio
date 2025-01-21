@@ -1,0 +1,48 @@
+.sec-3 {
+  width: 110%;
+  padding: 0 2rem;
+  background-color: #fffdd0;
+  border: 2px solid hsl(21, 100%, 50%);
+  margin-top: 3rem;
+  transform: rotate(-5deg);
+  margin-left: -1rem;
+  white-space: nowrap;
+}
+.sec-3 .run-text {
+  display: flex;
+  align-items: center;
+}
+
+.sec-3 img {
+  width: 4rem;
+
+  margin: 0 1rem 0 1rem;
+}
+.sec-3 p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 !important;
+}
+.run-text {
+  animation: run 30s linear infinite;
+}
+@keyframes run {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-300%);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .run-text {
+    animation: run 15s linear infinite;
+  }
+  .sec-3 {
+
+    padding: 0 1rem;
+
+   
+  }
+}

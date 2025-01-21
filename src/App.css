@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+/*---------- light mode --------  */
+body {
+  font-family: "Poppins", sans-serif;
+  transition: 0.8s;
+  /* background: url(./assets/images/colorful-bg.png); */
+  background-size: cover;
+  background-color: rgb(245, 245, 245);
+  background-blend-mode: lighten;
+}
+.mainDiv {
+  overflow: hidden;
+}
+
+/*---------- Dark mode --------  */
+body.dark-mode {
+  background: none;
+  background-color: #121212;
+  transition: 0.8s ease-in-out;
+}
+.dark-mode .container-fluid {
+  background-color: #121212;
+}
+.dark-mode .nav-head a {
+  color: #f1f1f1;
+  &:hover {
+    color: #f45700;
+  }
+}
+.dark-mode .sec-1 .middle h1 {
+  background: -webkit-radial-gradient(circle, #ff5b00, #f45700, #f1f1f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-mode .sec-1 {
+  color: #f1f1f1;
+}
+.dark-mode .resume {
+  color: #121212;
+}
+
+.dark-mode .sec-1 .top {
+  color: #121212;
+  border: 2px solid #f45700;
+}
+.dark-mode .sec-1 .middle h2 span{
+  color: #f1f1f1;
+}
+.dark-mode .nav .img img {
+  width: 70%;
+  transition: 0.8s;
+}
+.dark-mode .sec-3 {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+.dark-mode .sec-4 {
+  color: #f1f1f1;
+}
+.dark-mode h2 {
+  color: #f1f1f1;
+}
+.dark-mode .container .sec-5 .card {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgb(255, 91, 0, 0.3) 100%
+  ) !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .tech .card {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  ) !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .Sec-7 .company {
+  color: #f1f1f1;
+  background: linear-gradient(
+    240deg,
+    rgb(255, 91, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+}
+.dark-mode .Sec-7 .company .bot strong{
+  color: #f45700;
+  font-weight: 600;
+}
+.dark-mode .Sec-7 .company .bot ul li {
+  font-weight: 100 !important;
+}
+.dark-mode .Sec-8 .edu-info .card {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.3) 100%
+  ) !important;
+}
+.dark-mode .edu-info .card p {
+  color: #f1f1f1;
+  background-color: #000000;
+}
+.dark-mode .edu-info .card span {
+  color: #f1f1f1;
+}
+/* multiuse btn  */
+.dark-mode .MultiUseBtn {
+  background-color: #000000 !important;
+}
+/* company project  */
+.dark-mode .Project-card .content {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.2) 100%
+  ) !important;
+}
+.dark-mode .Project-card .content h2 {
+  color: #ff5b00;
+}
+.Project-card .content p {
+  color: #f1f1f1 !important;
+  font-weight: 400 !important;
+}
+.dark-mode .Project-card .content span {
+  color: #ff5b00;
+  background-color: #000;
+}
+.dark-mode .Project-card .content div .card {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgb(255, 91, 0, 0.1) 100%
+  ) !important;
+}
+.dark-mode .Project-card .content button {
+  background-color: #f1f1f1;
+  color: #ff5b00;
+  border: none;
+  &:hover {
+    background-color: #000;
+    color: #ff5b00;
+    border: none;
+  }
+}
+/* personal project   */
+.dark-mode .PerProject-card .content {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.2) 100%
+  ) !important;
+}
+.dark-mode .PerProject-card .content h2 {
+  color: #ff5b00;
+}
+.PerProject-card .content p {
+  color: #f1f1f1 !important;
+  font-weight: 400 !important;
+}
+.dark-mode .PerProject-card .content span {
+  color: #ff5b00;
+  background-color: #000;
+}
+.dark-mode .PerProject-card .content div .card {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgb(255, 91, 0, 0.1) 100%
+  ) !important;
+}
+.dark-mode .PerProject-card .content button {
+  background-color: #f1f1f1;
+  color: #ff5b00;
+  border: none;
+  &:hover {
+    background-color: #000;
+    color: #ff5b00;
+    border: none;
+  }
+}
+
+/* Testimonials */
+.dark-mode .Testimonials {
+  color: #f1f1f1;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgb(255, 91, 0, 0.3) 100%
+  ) !important;
+}
+.dark-mode .Testimonials .bot .linkedin img {
+  &:hover {
+    background-color: #f1f1f1;
+  }
+}
+
+/* connect with me  */
+.dark-mode .connectWithMe {
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 25) 0%,
+    rgb(255, 91, 0, 0.3) 100%
+  );
+}
+.dark-mode .connectWithMe h1 {
+  background: -webkit-radial-gradient(circle, #ff5b00, #f45700, #f1f1f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.dark-mode .connectWithMe h3 {
+  color: #f1f1f1;
+}
+.dark-mode .connectWithMe .bot .card {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  ) !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .Sec-11 .work p {
+  color: #f1f1f1;
+}
+
+/* footer  */
+.dark-mode .footer .text {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  );
+  border: 1px solid rgb(244, 87, 0, 0.25);
+}
+.dark-mode .footer .text p {
+  color: #f1f1f1;
+}

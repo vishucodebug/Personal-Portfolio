@@ -1,0 +1,57 @@
+.sec-5 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.sec-5 .card {
+  background-image: linear-gradient(
+    180deg,
+    rgb(217, 217, 217) 0%,
+    rgb(255, 91, 0, 0.3) 100%
+  );
+  border: 1px solid rgb(255, 91, 0, 0.5);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  flex-grow: 1;
+}
+.sec-5 .card img {
+  width: 6rem;
+  margin-bottom: 1rem;
+  /* for image drop shadow effect */
+  -webkit-filter: drop-shadow(2px 2px 2px #121212);
+  filter: drop-shadow(2px 2px 2px #121212);
+}
+.sec-5 .card p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .sec-5 .card {
+    margin: 0 0.5rem;
+    padding: 1rem;
+  }
+  .sec-5 .card img {
+    width: 5rem;
+    margin-bottom: 1rem;
+  }
+  .sec-5 .card p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sec-5 {
+    flex-wrap: wrap;
+  }
+  .sec-5 .card {
+    margin: 0.5rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,233 @@
+.PersProject {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.PerProject-card {
+  width: 100%;
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+.PerProject-card .img1,
+.PerProject-card .img2 {
+  width: 42%;
+  height: 400px;
+  background-color: #38b6ff;
+  border-radius: 3rem;
+  z-index: 10;
+  /* border: 1px solid #ff5b00; */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.PerProject-card .img2 {
+  background-color: #2d6b78 !important;
+}
+.PerProject-card .img1 img,
+.PerProject-card .img2 img {
+  width: 100%;
+  object-fit: contain;
+}
+.PerProject-card .content {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: start;
+  padding: 1rem 3rem 1rem 3rem;
+  margin-right: -3rem;
+  border: 1px solid rgb(255, 91, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 3rem;
+  height: fit-content;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgb(255, 91, 0, 0.5) 100%
+  ) !important;
+}
+.PerProject-card .content h2 {
+  text-align: start;
+  margin: 0 0 2rem 0;
+}
+.PerProject-card .content p {
+  font-size: 1.25rem;
+  font-weight: 600 !important;
+}
+.PerProject-card .content span {
+  color: #ff5b00;
+  background-color: #f1f1f1;
+  border: 1px solid #ff5b00;
+  padding: 0.25rem 1.5rem;
+  border-radius: 5rem;
+  margin: 0 5px;
+}
+.PerProject-card .content .SmallCards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 8rem;
+}
+
+.PerProject-card .content a {
+  background-color: #ff5b00;
+  color: #f1f1f1;
+  padding: 0.25rem 1.5rem;
+  margin: 2rem 1rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  transition: 0.5s;
+  &:hover {
+    background-color: #000;
+    color: #ff5b00;
+    border: none;
+  }
+}
+
+.PerProject-card .content button {
+  background-color: #121212;
+  color: #ff5b00;
+  padding: 0.25rem 1.5rem;
+  margin: 2rem 1rem 0 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 5rem;
+  border: none;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #ff5b00;
+    color: #000;
+    border: none;
+  }
+}
+.PerProject-card .content button i,
+.PerProject-card .content a i {
+  margin-left: 3px;
+}
+@media screen and (max-width: 1200px) {
+  .PerProject-card .img {
+    width: 40%;
+  }
+  .PerProject-card .content {
+    width: 70%;
+    margin-right: -8rem !important;
+  }
+  .PerProject-card .content .SmallCards {
+    margin-right: 5rem;
+  }
+}
+@media screen and (max-width: 992px) {
+  .PerProject-card {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .PerProject-card .img1,
+  .PerProject-card .img2 {
+    width: 80%;
+    margin-bottom: -2rem;
+    height: 400px;
+  }
+  .PerProject-card .content {
+    width: 100%;
+    padding: 2rem 3rem 8rem 3rem;
+    margin: 0 0 -4rem 0 !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .PerProject-card .content .SmallCards {
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .PerProject-card .img1,
+  .PerProject-card .img2 {
+    width: 90%;
+    height: 300px;
+  }
+  .PerProject-card .content {
+    padding: 2rem 10px 5rem 10px;
+    margin: 0 0 -4rem 0 !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .PerProject-card .content .SmallCards {
+    margin: 0;
+  }
+  .PerProject-card .content .SmallCards {
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .PerProject-card {
+    padding: 0;
+  }
+  .PerProject-card .img1,
+  .PerProject-card .img2 {
+    margin: 0;
+    margin-bottom: -2rem;
+  }
+  .PerProject-card .content {
+    width: 100%;
+    padding: 3rem 5px 5rem 5px;
+    /* margin: 0 !important; */
+  }
+  .PerProject-card .content span {
+    padding: 0.25rem 1rem;
+    font-size: 1rem !important;
+  }
+  .PerProject-card .content a,
+  .PerProject-card .content button {
+    padding: 0.25rem 1rem;
+    margin: 2rem 5px 1rem 5px;
+    font-size: 1.15rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .PerProject-card {
+    padding: 0 !important;
+  }
+  .PerProject-card .img1,
+  .PerProject-card .img2 {
+    margin: 0;
+    width: 93%;
+    margin-bottom: -2rem;
+    height: 200px;
+    border-radius: 2rem;
+  }
+  .PerProject-card .content {
+    width: 100%;
+    padding: 2rem 0 4rem 0;
+    margin: 0;
+    border-radius: 2rem;
+  }
+  .PerProject-card .content h2 {
+    margin: 0 0 1rem 0;
+  }
+  .PerProject-card .content p {
+    font-size: 1rem;
+  }
+  .PerProject-card .content span {
+    font-size: 0.85rem !important;
+  }
+
+  .PerProject-card .content a,
+  .PerProject-card .content button {
+    padding: 0.25rem 1rem;
+    margin: 2rem 3px 1rem 3px;
+    font-size: 1rem;
+  }
+}
