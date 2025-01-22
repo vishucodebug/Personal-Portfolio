@@ -30,9 +30,9 @@ html {
 .nav-head a {
   margin: 0 1rem;
   color: black;
-  &:hover {
-    color: #ff5b00;
-  }
+}
+.nav-head a:hover {
+  color: #ff5b00;
 }
 
 .nav-btn {

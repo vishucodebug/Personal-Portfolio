@@ -3,9 +3,11 @@ import "../assets/CSS/footer.css";
 
 function footer() {
   return (
-    <div className="container footer">
-      <div className="text">
-        <p>Design & Developed By Vishal Maurya With &#128153;</p>
+    <div className="container ">
+      <div className="footer">
+        <div className="text">
+          <p>Design & Developed By Vishal Maurya With &#128153;</p>
+        </div>
       </div>
     </div>
   );

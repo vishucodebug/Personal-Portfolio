@@ -21,13 +21,20 @@ body {
   background-blend-mode: lighten;
   overflow-x: hidden !important;
 }
+/* body a {
+  text-decoration: none !important;
+}
+body a:hover {
+  text-decoration: underline;
+  color: #f45700;
+} */
 .mainDiv {
-  overflow: hidden;
+  overflow-x: hidden !important;
 }
 
 /*---------- Dark mode --------  */
 .dark-mode {
-  background-color: #121212;
+  background-color: #121212 !important;
   transition: 0.8s ease-in-out;
 }
 .dark-mode .container-fluid {
@@ -35,6 +42,7 @@ body {
 }
 .dark-mode .nav-head a {
   color: #f1f1f1;
+
   &:hover {
     color: #f45700;
   }
@@ -55,7 +63,7 @@ body {
   color: #121212;
   border: 2px solid #f45700;
 }
-.dark-mode .sec-1 .middle h2 span{
+.dark-mode .sec-1 .middle h2 span {
   color: #f1f1f1;
 }
 .dark-mode .nav .img img {
@@ -96,7 +104,7 @@ body {
     rgba(0, 0, 0, 0.5) 100%
   );
 }
-.dark-mode .Sec-7 .company .bot strong{
+.dark-mode .Sec-7 .company .bot strong {
   color: #f45700;
   font-weight: 600;
 }
