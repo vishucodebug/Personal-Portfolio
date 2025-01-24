@@ -1,13 +1,13 @@
-.Sec-11{
-    margin-bottom: 5rem;
+.Sec-11 {
+  margin-bottom: 5rem;
 }
 .Sec-11 h2 {
   font-size: 3rem;
   text-align: center;
   font-weight: 600;
-  margin:3rem 0 1rem 0;
+  margin: 3rem 0 1rem 0;
 }
-.connectWithMe {
+.Sec-11 .connectWithMe {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,14 +23,14 @@
   border-radius: 100px 20px 100px 20px;
   margin-bottom: 5rem;
 }
-.connectWithMe .vishalimg {
+.Sec-11 .connectWithMe .vishalimg {
   width: 15rem;
   height: 15rem;
   object-fit: contain;
   background-color: #ff5b00;
   border-radius: 50%;
 }
-.connectWithMe h1 {
+.Sec-11 .connectWithMe h1 {
   font-size: 3.5rem;
   background: -webkit-radial-gradient(circle, #ff5b00, #020202);
   -webkit-background-clip: text;
@@ -38,10 +38,10 @@
   font-weight: bolder;
   margin: 1rem;
 }
-.connectWithMe h3 {
+.Sec-11 .connectWithMe h3 {
   font-size: 1.5rem;
 }
-.connectWithMe .btns {
+.Sec-11 .connectWithMe .btns {
   margin-top: 1rem;
   width: 100%;
   display: flex;
@@ -49,69 +49,65 @@
   align-items: center;
   /* background-color: red; */
 }
-.connectWithMe .bot {
+.Sec-11 .connectWithMe .bot {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin:1rem 0;
+  margin: 1rem 0;
 }
-.connectWithMe .bot a:hover {
- 
-    border-radius: 1rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
+.Sec-11 .connectWithMe .bot a:hover {
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.Sec-11 .work p{
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 0;
-    text-align: center;
+.Sec-11 .work p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-align: center;
 }
-.Sec-11 .work a{
-    color: #ff5b00;
-            transition: 0.8s;
-    
+.Sec-11 .work a {
+  color: #ff5b00;
+  transition: 0.8s;
 }
-.Sec-11 .work a:hover{
-      transition: 0.8s;
-        text-decoration: underline;
+.Sec-11 .work a:hover {
+  transition: 0.8s;
+  text-decoration: underline;
 }
 @media screen and (max-width: 992px) {
-.connectWithMe .bot {
- padding: 2rem;
+  .Sec-11 .connectWithMe .bot {
+    padding: 2rem;
+  }
 }
 @media screen and (max-width: 568px) {
-   .Sec-11 {
+  .Sec-11 {
     padding: 8px;
-   }
-    .connectWithMe {
-        padding:10px;
-        border-radius: 60px 20px 60px 20px;
-    }
-.Sec-11 h2 {
-  font-size: 2rem;
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 2rem;
-}
-.Sec-11 .work p{
+  }
+  .Sec-11 .connectWithMe {
+    padding: 10px;
+    border-radius: 60px 20px 60px 20px;
+  }
+  .Sec-11 h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .Sec-11 .work p {
     font-size: 1.5rem;
-    
-}
-.connectWithMe {
-  padding: 1rem 0;
-}
-.connectWithMe h1{
+  }
+  .Sec-11 .connectWithMe {
+    padding: 1rem 0;
+  }
+  .Sec-11 .connectWithMe h1 {
     font-size: 2.5rem;
-}
-.connectWithMe h3{
+  }
+  .Sec-11 .connectWithMe h3 {
     font-size: 1.25rem;
     padding: 0 10px;
-}
-.connectWithMe .bot{
+  }
+  .Sec-11 .connectWithMe .bot {
     padding: 5px;
     width: 100%;
+  }
 }
-}
-
