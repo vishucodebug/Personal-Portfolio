@@ -56,6 +56,9 @@
   align-items: center;
   margin: 1rem 0;
 }
+.Sec-11 .connectWithMe .bot a {
+  text-decoration: none;
+}
 .Sec-11 .connectWithMe .bot a:hover {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -69,6 +72,7 @@
 .Sec-11 .work a {
   color: #ff5b00;
   transition: 0.8s;
+  text-decoration: none;
 }
 .Sec-11 .work a:hover {
   transition: 0.8s;
