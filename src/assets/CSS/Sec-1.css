@@ -1,25 +1,38 @@
+.container.mainSec {
+  display: flex;
+  justify-content: center;
+  max-width: 100vw !important;
+
+  margin: auto;
+}
 .sec-1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
-  /* background-color: pink; */
+  width: 100vw;
+  height: 85vh;
+  max-height: 50rem !important;
+  background-color: #dbe2e9;
   justify-content: space-evenly;
-  padding: 2rem 7rem;
+  padding: 2rem 10rem;
+
+  border-radius: 1rem 1rem 5rem 1rem;
+  width: 100%;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
 }
 .sec-1 .top {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  background-color: #d5d5d5;
+
   border-radius: 3rem;
   box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.25);
   padding: 0.25rem 2rem;
 }
 .sec-1 .top img {
-  width: 3rem;
+  width: 2rem;
   margin-right: 1rem;
 }
 .sec-1 .middle {
@@ -57,7 +70,7 @@
   width: fit-content;
   font-weight: 600;
   border-radius: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding: 0.25rem 1rem;
   color: #121212;
   border: 1px solid #ff5b00;
@@ -72,7 +85,7 @@
 
 @media screen and (max-width: 1200px) {
   .sec-1 {
-    padding: 2rem 0;
+    padding: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
@@ -99,8 +112,12 @@
   }
 }
 @media screen and (max-width: 520px) {
+  .container {
+    padding: 8px;
+  }
   .sec-1 {
-    padding: 5.5rem 0 3rem 0;
+    padding: 2rem 5px 3rem 5px;
+    height: 80vh;
   }
 }
 @media screen and (max-width: 420px) {
@@ -108,12 +125,13 @@
     font-size: 2rem;
   }
   .sec-1 .middle h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
   .sec-1 .middle p {
     font-size: 1rem;
   }
-  .sec-1 .middle h2 span{
-    font-size: 1.25rem;
+  .sec-1 .middle h2 span {
+    font-size: 1.15rem;
   }
 }

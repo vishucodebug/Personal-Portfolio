@@ -2,14 +2,14 @@
   background-color: #f5f5f5 !important;
 }
 .sec-3 {
-  width: 110%;
+  width: 115%;
   padding: 0;
   background-color: #fffdd0;
   border: 2px solid hsl(21, 100%, 50%);
 
   margin-top: 3rem;
   transform: rotate(-5deg);
-  margin-left: -1rem;
+  margin-left: -2rem;
   white-space: nowrap;
 }
 .sec-3 .run-text {

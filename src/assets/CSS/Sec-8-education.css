@@ -50,9 +50,9 @@
   margin-bottom: 1.5rem;
 }
 .edu-info .card .bot img {
-  width: 2.75rem;
-  border-radius: 5rem;
-  border: 1px solid #ff5b00;
+  width: 2.25rem;
+  /* border-radius: 5rem; */
+  /* border: 1px solid #ff5b00; */
 }
 .edu-info .card .bot span {
   font-size: 1.25rem;

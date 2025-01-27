@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 .container-fluid {
-  background-color: #d9d9d9;
+  /* background-color: #d9d9d9; */
 }
 
 .nav {
@@ -55,11 +55,11 @@ html {
 /* ------------- light dark mode css ------------  */
 
 .theme-switch {
-  --toggle-size: 15px;
+  --toggle-size: 12px;
   /* the size is adjusted using font-size,
      this is not transform scale,
      so you can choose any size */
-  --container-width: 5.625em;
+  --container-width: 6em;
   --container-height: 2.5em;
   --container-radius: 6.25em;
   /* radius 0 - minecraft mode :) */
@@ -365,7 +365,7 @@ html {
 
 .hamburger svg {
   /* The size of the SVG defines the overall size */
-  height: 4em;
+  height: 3em;
   /* Define the transition for transforming the SVG */
   transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -427,6 +427,11 @@ html {
   .slider-nav .slider-content a {
     font-size: 3.5rem;
   }
+  .nav {
+    height: unset;
+    padding: 0;
+    overflow: scroll !important;
+  }
   .nav .img {
     width: 100%;
     justify-content: center;
@@ -436,9 +441,10 @@ html {
   }
   .nav-btn {
     width: 100%;
-    height: 3.5rem;
-    margin-top: 1rem;
-    background-color: #d5d5d5;
+    height: 3rem;
+    padding: 0;
+    margin: 0;
+    background-color: #dbe2e9;
     border-radius: 5rem;
     padding-left: 1rem;
     flex-direction: row-reverse;

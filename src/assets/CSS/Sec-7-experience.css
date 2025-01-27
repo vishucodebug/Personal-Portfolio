@@ -39,7 +39,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(255, 91, 0,0.85);
+  background-color: rgba(255, 105, 25,0.75);
+
   border-radius: 5rem;
   padding: 2px 1rem 2px 2px;
 }
@@ -62,7 +63,6 @@
 }
 .Sec-7 .company .top .comDuration {
   width: 40%;
- 
 }
 .Sec-7 .company .mid {
   display: flex;
@@ -72,7 +72,7 @@
   margin: 1rem 0;
 }
 .Sec-7 .company .mid img {
-  width: 5rem;
+  width: 3.5rem;
   border-radius: 5rem;
   margin-right: 1rem;
   border: 1px solid #ff5b00;
@@ -93,11 +93,11 @@
 }
 
 .Sec-7 .company .bot ul li {
-  font-size: 1.5rem;
-  letter-spacing: 0.5px;
+  font-size: 1.25rem;
+  letter-spacing: 0.25px;
   list-style-type: disclosure-closed;
   margin-bottom: 10px;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 1400px) {
   .Sec-7 .company .top .comName .content h3 {

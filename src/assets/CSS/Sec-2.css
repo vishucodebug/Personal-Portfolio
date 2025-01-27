@@ -127,7 +127,7 @@
     height: 20rem;
   }
   .sec-2 img {
-    width: 3.5rem;
+    width: 3rem;
     transition: 0.8s;
   }
   .sec-2 .img-box {
@@ -137,7 +137,7 @@
     box-shadow: 5px 5px 2px 0;
   }
   .sec-2 .img-box img {
-    left: 2%;
+    left: 0%;
     position: absolute;
     bottom: 0;
     width: 92%;
