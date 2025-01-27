@@ -20,7 +20,7 @@ function PerProject() {
     <div className=" PersProject">
       <div className="PerProject-card">
         <div className="img1">
-          <img src={StayAway} alt="StayAway Img" />
+          <img src={StayAway} alt="StayAway Img" loading="lazy" />
         </div>
         <div className="content">
           <h2>StayAway</h2>
@@ -143,11 +143,11 @@ function PerProject() {
               </div>
             </div>
 
-            <a href="#">
+            <a href="https://stayaway-rvf3.onrender.com/home">
               Live
               <i className="fa-solid fa-angle-right"></i>
             </a>
-            <a href="#">
+            <a href="https://github.com/vishucodebug/StayAway/tree/main">
               Gitub
               <i className="fa-solid fa-angle-right"></i>
             </a>
@@ -156,7 +156,7 @@ function PerProject() {
       </div>
       <div className="PerProject-card">
         <div className="img2">
-          <img src={NotesAppImg} alt="Notes Application Image" />
+          <img src={NotesAppImg} alt="Notes Application Image" loading="lazy" />
         </div>
         <div className="content">
           <h2>Notes Application</h2>

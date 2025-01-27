@@ -8,6 +8,7 @@
   border-radius: 3rem;
   border: 1px solid #ff5b00;
   transition: 0.5s;
+  text-decoration: none;
 }
 .hire a:hover {
   color: white;
@@ -19,5 +20,6 @@
   .hire a {
     padding: 0.5rem 1.95rem;
     font-size: 1.25rem;
+    text-decoration: none;
   }
 }

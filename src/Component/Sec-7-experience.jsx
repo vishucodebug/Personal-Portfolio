@@ -20,7 +20,7 @@ function Sec7Experience() {
               <p>Lucknow, Uttar Pradesh , India</p>
             </div>
           </div>
-          <MultiUseBtn img={Calender} title="August 2024 - Present" />
+          <MultiUseBtn img={Calender} title="Aug 2024 - Dec 2024" />
         </div>
         <div className="mid">
           <img src={Profile} alt="img" />
@@ -30,8 +30,8 @@ function Sec7Experience() {
           <ul>
             <li>
               
-              <strong>Professional Experience:</strong> Worked as a web designer for 6
-              months at SPO Dev Technology, gaining practical knowledge in
+              <strong>Professional Experience:</strong> Worked as a web designer for 5
+              months at SPOCDEV Technology, gaining practical knowledge in
               designing and developing web pages.
             </li>
             <li>

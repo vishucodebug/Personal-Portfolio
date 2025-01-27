@@ -5,8 +5,9 @@ import HireMe from "../shared/btns/HireMe.jsx";
 
 function Sec1() {
   return (
-    <div className="container">
+    <div className="container mainSec">
       <div className="sec-1">
+        
         <div className="top">
           <img src={robo} alt="robot-icon" /> <span>Hey ! there</span>
         </div>

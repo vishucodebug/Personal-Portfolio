@@ -37,16 +37,16 @@ function Navbar() {
           </svg>
         </label>
         <div className="slider-content">
-          <a href="" onClick={closeNav}>
+          <a href="/" onClick={closeNav}>
             Home
           </a>
-          <a href="" onClick={closeNav}>
+          <a href="/Gallary" onClick={closeNav}>
             Gallery
           </a>
-          <a href="#work" onClick={closeNav}>
+          <a href="/#work" onClick={closeNav}>
             Work
           </a>
-          <a href="#connectWithMe" onClick={closeNav}>
+          <a href="/#connectWithMe" onClick={closeNav}>
             Contact
           </a>
         </div>
@@ -62,10 +62,10 @@ function Navbar() {
           />
         </div>
         <div className="nav-head">
-          <a href="#">Home</a>
-          <a>Gallery</a>
-          <a href="#work">Work</a>
-          <a href="#connectWithMe">Contact</a>
+          <a href="/">Home</a>
+          <a href="/Gallary">Gallery</a>
+          <a href="/#work">Work</a>
+          <a href="/#connectWithMe">Contact</a>
         </div>
         <div className="nav-btn">
           {/* --------- light dark mode sec ---------- */}

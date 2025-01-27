@@ -1,0 +1,222 @@
+.heading h2 {
+  text-align: center;
+  margin-top: 10rem;
+  font-size: 4rem;
+  color: #ff8000;
+
+  /* text-decoration: underline; */
+}
+
+.gallarySec1 {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+}
+.imgGroup {
+  display: flex;
+  height: 35rem;
+  transition: 0.8s;
+}
+.second {
+  margin-top: 1rem;
+}
+.imgGroup div {
+  border-radius: 1rem;
+  transition: 1s;
+}
+.imgGroup .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 0;
+  margin-right: 10px;
+}
+.imgGroup .left .top {
+  height: 60%;
+  width: 100%;
+  background-color: green;
+  overflow: hidden;
+  border: 2px solid #ff8000;
+  &:hover {
+    width: 130%;
+    min-height: 30rem;
+    z-index: 999;
+    transform: translate(12%, 0px);
+    cursor: pointer;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+.imgGroup .left .top img {
+  width: 100%;
+}
+.imgGroup .left .bot {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 0;
+}
+.imgGroup .left .bot .left {
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+  margin: 0 10px 0 0;
+  overflow: hidden;
+  border: 2px solid #ff8000;
+  &:hover {
+    width: 110%;
+    height: 30rem;
+    z-index: 99;
+    transform: translate(0px, -30%);
+    cursor: pointer;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+.imgGroup .left .bot .left img {
+  width: 100%;
+}
+.imgGroup .left .bot .right {
+  height: 100%;
+  width: 50%;
+  background-color: orangered;
+  overflow: hidden;
+  border: 2px solid #ff8000;
+  &:hover {
+    width: 110%;
+    height: 30rem;
+    z-index: 99;
+    transform: translate(0px, -30%);
+    cursor: pointer;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+.imgGroup .left .bot .right img {
+  width: 100%;
+}
+.imgGroup .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.imgGroup .right .top {
+  width: 100%;
+  height: 40%;
+  background-color: yellow;
+  overflow: hidden;
+  border: 2px solid #ff8000;
+  &:hover {
+    width: 120%;
+    height: 24rem;
+    z-index: 99;
+    transform: translate(-10%, 0px);
+    cursor: pointer;
+  }
+}
+.imgGroup .right .top img {
+  width: 100%;
+}
+.imgGroup .right .bot {
+  width: 100%;
+  height: 60%;
+  background-color: blue;
+  margin-top: 10px;
+  overflow: hidden;
+  border: 2px solid #ff8000;
+  border: 2px solid #ff8000;
+  &:hover {
+    width: 110%;
+    height: 60rem;
+    z-index: 99;
+    transform: translate(-8%, 0px);
+    cursor: pointer;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+}
+.imgGroup .right .bot img {
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .imgGroup {
+    display: flex;
+    height: 30rem;
+    transition: 0.8s;
+  }
+}
+@media screen and (max-width: 768px) {
+  .imgGroup {
+    display: flex;
+    height: 25rem;
+    transition: 0.8s;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imgGroup {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+
+  .imgGroup .left {
+    width: 100%;
+  }
+  .imgGroup .left .top {
+    height: 20rem;
+    width: 100%;
+    &:hover {
+      width: 100%;
+      transform: translate(0, 0);
+    }
+  }
+  .imgGroup .left .bot {
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 10px;
+  }
+  .imgGroup .left .bot .left {
+    width: 50%;
+    height: 100%;
+    &:hover {
+      width: 150%;
+      height: 150%;
+      transform: translate(0, 0);
+    }
+  }
+
+  .imgGroup .left .bot .right {
+    width: 50%;
+    height: 100%;
+    &:hover {
+      width: 150%;
+      transform: translate(0, 0);
+    }
+  }
+  .imgGroup .right {
+    width: 100%;
+  }
+  .imgGroup .right .top {
+    width: 100%;
+    height: 15rem;
+    &:hover {
+      width: 100%;
+      height: 100%;
+      transform: translate(0, 0);
+    }
+  }
+  .imgGroup .right .bot {
+    width: 100%;
+    height: 20rem;
+    &:hover {
+      width: 100%;
+      height: 30rem;
+      transform: translate(0, 0);
+    }
+  }
+}

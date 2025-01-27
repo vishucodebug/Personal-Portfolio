@@ -1,12 +1,13 @@
 import Nav from "./Component/Navbar.jsx";
+import Sec1Gallary from "./GallaryComponant/Sec-1.jsx";
 
 import "./Gallary.css";
 
 function Gallary() {
   return (
     <div className="mainDiv">
-          <Nav />
-          <h2>hello my name is vishal maurya</h2>
+      <Nav />
+      <Sec1Gallary />
     </div>
   );
 }

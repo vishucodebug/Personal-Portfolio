@@ -12,16 +12,19 @@ function Sec4About() {
           </div>
           <div className="abt-content">
             <p>
-              I am a <b> B.Tech student </b> , <b> aspiring web designer </b>
-              and <b> full-stack developer </b>, known for{" "}
-              <b> creating modern </b>, <b> responsive designs </b> using Figma
-              and turning them into fully functional web applications. With
-              skills in <b> HTML </b>, <b> CSS </b>, <b> JavaScript </b>, and
-              <b> React </b> , I build clean, user-friendly interfaces. Eager to
-              make a meaningful impact, I am also learning full-stack
-              development with the <b> MERN stack </b> , focusing on both
-              <b> front-end design </b> & <b> back-end development </b> to
-              deliver high-performance solutions.
+              I’m a <b>creative web designer</b> and <b>full-stack developer</b>{" "}
+              with <b>5+ months</b> of experience creating modern, responsive
+              designs using <b>Figma</b> and transforming them into{" "}
+              <b>functional web applications</b>. Proficient in{" "}
+              <b>HTML, CSS, JavaScript, and React</b>, I build user-friendly
+              interfaces with clean, efficient code. Currently honing my skills
+              in the <b>MERN stack</b>, I focus on blending{" "}
+              <b>front-end creativity</b>
+              with <b>back-end efficiency</b> to deliver impactful,
+              high-performance digital solutions. Whether{" "}
+              <b>designing sleek visuals</b> or developing robust solutions, I
+              aim to deliver products that leave a lasting impression on users
+              and clients alike.
             </p>
           </div>
         </div>
